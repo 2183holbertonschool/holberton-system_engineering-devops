@@ -1,0 +1,2 @@
+#!/bin/bash
+cat -n | cut -c6- | grep -P "[1379]" | cut -f2
