@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | cut -c6- | grep -P "[1379]" | cut -f2
+cat --number | cut -c6- | grep -perl-regexp "[13579]" | cut -f2
